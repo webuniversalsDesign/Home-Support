@@ -41,11 +41,11 @@ return(
 
 <form ref={form} onSubmit={sendEmail}>
 
-    <input type="text" className="form-control mt-2 mb-4 add-padding" placeholder="Name" name="user_name" required/>
-    <input type="email" className="form-control mt-2 mb-4 add-padding" placeholder="Email" name="user_email" required/>
-    <input type="number" className="form-control mt-2 mb-4 add-padding" placeholder="Phone Number" name="user_phoneno" required/>
+    <input type="text" className="form-control mt-2 mb-4 add-padding" placeholder="Name" name="user_name" autoComplete="name" required/>
+    <input type="email" className="form-control mt-2 mb-4 add-padding" placeholder="Email" name="user_email" autoComplete="email" required/>
+    <input type="number" className="form-control mt-2 mb-4 add-padding" placeholder="Phone Number" name="user_phoneno" autoComplete="number" required/>
 
-    <select id="service" name="user_service" className="form-control mt-2 mb-4 add-padding"  required>
+    <select id="service" name="user_service" className="form-control mt-2 mb-4 add-padding" autoComplete="select" required>
     <option value="">Select Your Service</option>
     <option value="REFRIGERATOR">REGRIGERATOR  REPAIR & SERVICE</option>
     <option value="AC">AC REPAIR & SERVICE</option>

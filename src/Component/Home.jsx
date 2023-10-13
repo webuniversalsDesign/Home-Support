@@ -92,10 +92,10 @@ function Home () {
 <p className="remove_margin title_section text-center"> Book Your Service</p>&nbsp; &nbsp;
 
 <form onSubmit={handleSubmit}>
-<input type="text" className="oneLineform" placeholder="Name" required name="name" value={formData.name} onChange={handleChange}/> 
-<input type="email" className="oneLineform" placeholder="Email" required name="email" value={formData.email} onChange={handleChange}/> 
-<input type="number" className="oneLineform" placeholder="Number" required name="phoneNumber"  value={formData.phoneNumber} onChange={handleChange}/> 
-<select id="service" name="service"  value={formData.service} onChange={handleChange} className="mod_option-s" required >
+<input type="text" className="oneLineform" placeholder="Name" required name="name" value={formData.name} onChange={handleChange} autoComplete="name" /> 
+<input type="email" className="oneLineform" placeholder="Email" required name="email" value={formData.email} onChange={handleChange} autoComplete="email" /> 
+<input type="number" className="oneLineform" placeholder="Number" required name="phoneNumber"  value={formData.phoneNumber} onChange={handleChange} autoComplete="number" /> 
+<select id="service" name="service"  value={formData.service} onChange={handleChange} className="mod_option-s" required autoComplete="select" >
     <option value="">Select Your Service</option>
     <option value="REFRIGERATOR">REGRIGERATOR  REPAIR & SERVICE</option>
     <option value="AC">AC REPAIR & SERVICE</option>
