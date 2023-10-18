@@ -1,0 +1,102 @@
+@media only screen and (max-width: 600px) {
+    .nav-header{
+    display: none;
+    }
+}
+
+@media only screen and (min-width: 998px) {
+    .nav-header{
+    display: flex;
+    
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .nav-header{
+    display: flex;
+    
+    }
+}
+
+
+.nav-header{
+    background-color: white;
+    box-shadow: 1px 4px 13px 0px #dddddd;
+    padding: 10px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo-header img{
+    height: auto;
+    width: 200px;
+}
+
+.nav-link-item{
+    margin: 0px 4px;
+        padding: 10px;
+        color: black;
+        font-weight: 500;
+}
+
+.nav-cover{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.disable-link-decoration{
+    text-decoration: none;
+}
+
+.submenu{
+    position: absolute;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    top: 50px;
+    background-color: white;
+    padding: 10px 0px;
+    box-shadow: 1px 4px 13px 0px rgb(0 0 0 / 19%);
+overflow: hidden;
+border-radius: 5px;
+height: 0px;
+opacity: 0;
+visibility: hidden;
+transition: all 0.3s ease-in-out;
+}
+
+.drop:hover .submenu{
+visibility: visible;
+height: 280px;
+opacity: 1;
+}
+
+.submenu-items{
+color: black;
+width: 200px;
+padding: 10px ;
+background-color: white;
+transition: all 0.1s ease-in-out;
+}
+
+.submenu-items:hover{
+background-color: #6369b5;
+color: white;
+}
+
+
+.drop{
+    position: relative;
+}
+
+.drop-icon{
+    transform: rotate(-0deg);
+transition: all 0.3s ease-in-out;
+
+}
+
+.drop:hover .drop-icon{
+    transform: rotate(-180deg);
+}

@@ -2,8 +2,7 @@ import React from "react";
 // import nav_img from './../img/header.jpg';
 import { Link } from "react-router-dom";
 
-import { IoCall } from 'react-icons/io5';
-import { MdOutlineAttachEmail } from 'react-icons/md';
+import { IoIosArrowDown } from 'react-icons/io';
 // import { FaMapLocationDot } from 'react-icons/fa6';
 import nav_logo from '../img/logo/customerSupport.png';
 
@@ -11,28 +10,32 @@ import nav_logo from '../img/logo/customerSupport.png';
 function Header () {
 return(
 <>
-<header className="bg-banner_1">
-<div className="container pad-l-f">
-
-<div className="d-flex justify-content-between align-items-center">
-
-<div>
-<Link to="/" className="header-font">
-<div className="nav_line_logo">
-<img src={nav_logo} className="nav_logo" alt="not-found" />
-</div></Link>
-</div>
-<div className="col2">
-<a href="tel:18005722686" className=" header-font_section2"><IoCall className="nav_icon"/>TOLL FREE : 1800 572 2686</a><br/>
-<a href="mailto:info@customersupport24x7.in" className=" header-font_section2"><MdOutlineAttachEmail className="nav_icon"/>EMAIL US : info@customersupport24x7.in</a><br/>
+<nav className="nav-header">
+<div  className="nav-logo-header">
+    <img src={nav_logo} alt='logo-not-found'/>
 </div>
 
+<div className="navbar-items">
+    <ul className="nav-cover">
+        <Link to="/" className="disable-link-decoration"><li className="nav-link-item">Home</li></Link>
+        
+        <Link className="disable-link-decoration"><li className="nav-link-item drop"><IoIosArrowDown className="drop-icon"/> Services
+        <ul className="submenu">
+        <Link to="/" className="disable-link-decoration"><li className="submenu-items">Bosh Repair Service</li></Link>  
+        <Link to="/" className="disable-link-decoration"><li className="submenu-items">IFB Repair Service</li></Link>  
+        <Link to="/" className="disable-link-decoration"><li className="submenu-items">LG Repair Service</li></Link>  
+        <Link to="/" className="disable-link-decoration"><li className="submenu-items">Samsung Repair Service</li></Link>  
+        <Link to="/" className="disable-link-decoration"><li className="submenu-items">Siemens Repair Service</li></Link>  
+        <Link to="/" className="disable-link-decoration"><li className="submenu-items">Whirlpool Repair Service</li></Link>  
+        </ul>
+        </li></Link>
+
+        <Link to="/" className="disable-link-decoration"><li className="nav-link-item">Blogs</li></Link>
+        
+        <Link to="/" className="disable-link-decoration"><li className="nav-link-item">Contact us</li></Link>
+    </ul>
 </div>
-
-
-</div>
-
-</header>
+</nav>
 
 <div className="mobile-header d-flex justify-content-start">
 <Link to="/"><img src={nav_logo} className="nav_img" alt="navbar_image"/></Link>

@@ -2,13 +2,13 @@
 import React, { useState } from 'react';
 import { Helmet } from "react-helmet";
 
-import acImg from './../img/repaireServiceimg/ac.jpg';
+import acImg from './../img/repaireServiceimg/ac.png';
 import reImg from './../img/repaireServiceimg/refrigerator.jpg';
 import dishImg from './../img/repaireServiceimg/dish.jpg';
-import tvImg from './../img/repaireServiceimg/tv.jpg';
+import tvImg from './../img/repaireServiceimg/tv.png';
 import micImg from './../img/repaireServiceimg/oven.jpg';
-import washImg from './../img/repaireServiceimg/wash.jpg';
-import serveImg from './../img/repaireServiceimg/service.jpg';
+import washImg from './../img/repaireServiceimg/wash.png';
+import serveImg from './../img/repaireServiceimg/service.png';
 import repairImg from './../img/repaireServiceimg/repair.jpg';
 import homeItImg from './../img/repaireServiceimg/applainces.jpg';
 import supportImg from './../img/repaireServiceimg/support.jpg';

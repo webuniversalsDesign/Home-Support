@@ -23,7 +23,7 @@ function Footer () {
 
 {/* FOOTER START */}
 
-<h5 className="text-center margin-0 footer-bg">Copyright © 2023 Customer Support 24 X 7 | <Link to="/Home/PrivacyPolicy" className="text-dec-none">Privacy Policy</Link></h5>
+<h5 className="text-center margin-0 footer-bg">Copyright © 2023 Customer Support 24 X 7 | <a href="" className="text-dec-none">Our Blogs</a> | <Link to="/Home/PrivacyPolicy" className="text-dec-none">Privacy Policy</Link></h5>
 {/* FOOTER END */}
 </>
 

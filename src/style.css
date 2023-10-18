@@ -1,3 +1,177 @@
+
+@media only screen and (max-width: 600px) {
+    .pad-l-f{
+    
+        padding: 0px 5% 0px 5%;
+    
+    }
+    
+    .tnk-body{
+    width: 95%;
+    }
+    .nav_logo{
+        
+    
+    }
+    
+    .link_weber{
+        text-align: center;
+        padding: 0px 0px 70px 0px;
+        margin: 0px;
+    }
+    
+    .footer-bg{
+    
+        background-color: #6369b5;
+        color: white;
+        padding: 10px 0px 20% 0px;
+    }
+    
+    .contact_stk{
+        /* position: fixed;
+        height: 100vh;
+        width: 100%; */
+        
+        }
+        
+        .con_box{
+            background-color: #f7b12b;
+            /* border-radius: 5px; */
+            bottom: 0px;
+            color: #fff;
+            font-size: 15px;
+            font-weight: 500;
+            left: 50%;
+            padding: 18px 0px;
+            width: 100%;
+            position: fixed;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+    
+    .bg-banner_1{
+    display: none;
+    }
+    
+    .card-body-mod{
+     
+        background-color: #e7e7e7;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .mobile-header{
+        display: flex;
+        position: sticky;
+        width: 100%;
+        background-color: #f5f5f5;
+        box-shadow: 1px 6px 20px 1px #5f5f5f;
+    top: 0%;    
+    }
+    
+        .mobile-header h1{
+            font-size: 15px;
+            margin: 0px;
+            padding: 4% 0px 4% 20px;
+    
+        }
+    
+    
+    .content_img3{
+    height: 430px;
+    width: 100%;
+        
+    }
+    
+    .nav_img{
+        height: 60px;
+        width: 200px;
+        margin: 5px 5px;
+    }
+    
+    .banner_2{
+        background-image: url('./img/repaireServiceimg/homekitchen.png');
+        height: 145px;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .content_head_text{
+        color: #6469ad;
+        font-size: 20px;
+        font-weight: 600;
+    
+    }
+    
+    .content_text{
+        font-size: 15px;
+        font-weight: 450;
+    text-align: justify;
+    }
+    
+    .sub_content{
+        font-size: 15px;
+        font-weight: 600;
+    
+    }
+    
+    .head_text{
+        text-align: center;
+        color: #0410a7;
+        font-size: 18px;
+    }
+    .inner_padding{
+        /* padding: 0% ; */
+    
+    }
+    
+    .content_img{
+        height: 300px;
+        width: 100%;
+    
+    }
+    
+    .mod_option-s{
+        width: 90%;
+        padding: 10px;
+        margin: 0px 5%;
+    
+    }
+    
+    .forminline{
+    
+        display: block;
+    }
+    
+    .oneLineform{
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        width: 90%;
+        margin: 10px 5%;
+    }
+    
+    .btn-mod{
+        border: none;
+        width: 90%;
+        line-height: 2;
+        border-radius: 5px;
+        background-color: #f7b12b;
+        color: white;
+        font-size: 20px;
+        margin: 20px 20px 5px 15px;
+    
+    }
+    
+    .card-white-theme{
+    
+    
+    }
+    
+    }
+
 @media only screen and (min-width: 768px) {
 .pad-l-f{
 padding: 0px 5% 0px 5%;
@@ -7,8 +181,8 @@ padding: 0px 5% 0px 5%;
 }
 
 .nav_logo{
-height: 80px;
-width: 300px;
+height: auto;
+width: 250px;
 }
 
 .card-body-mod{
@@ -70,7 +244,7 @@ display: none;
 
 .banner_2{
 
-    background-image: url('./img/repaireServiceimg/homekitchen.jpg');
+    background-image: url('./img/repaireServiceimg/homekitchen.png');
     height: 500px;
     width: 100%;
     background-size: contain;
@@ -157,11 +331,8 @@ width: 100%;
 
 }
 
-
-@media only screen and (min-width: 1200px) {
-    .nav_logo{
-
-    }
+@media only screen and (min-width: 998px) {
+   
 
     .tnk-body{
         width: 50%;
@@ -176,177 +347,22 @@ width: 100%;
     
 }
 
-@media only screen and (max-width: 600px) {
-.pad-l-f{
+@media only screen and (min-width: 1400px) {
 
-    padding: 0px 5% 0px 5%;
 
-}
+    .tnk-body{
+        width: 50%;
+        }
 
-.tnk-body{
-width: 95%;
-}
-.nav_logo{
-
-}
-
-.link_weber{
-    text-align: center;
-    padding: 0px 0px 70px 0px;
-    margin: 0px;
-}
-
-.footer-bg{
+    .footer-bg{
 
     background-color: #6369b5;
     color: white;
-    padding: 10px 0px 20% 0px;
+    padding: 2% 0px
 }
-
-.contact_stk{
-    /* position: fixed;
-    height: 100vh;
-    width: 100%; */
-    
-    }
-    
-    .con_box{
-        background-color: #f7b12b;
-        /* border-radius: 5px; */
-        bottom: 0px;
-        color: #fff;
-        font-size: 15px;
-        font-weight: 500;
-        left: 50%;
-        padding: 18px 0px;
-        width: 100%;
-        position: fixed;
-        transform: translateX(-50%);
-        text-align: center;
-    }
-
-.bg-banner_1{
-display: none;
-}
-
-.card-body-mod{
- 
-    background-color: #e7e7e7;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.mobile-header{
-    display: flex;
-    position: sticky;
-    width: 100%;
-    background-color: #f5f5f5;
-    box-shadow: 1px 6px 20px 1px #5f5f5f;
-top: 0%;    
-}
-
-    .mobile-header h1{
-        font-size: 15px;
-        margin: 0px;
-        padding: 4% 0px 4% 20px;
-
-    }
-
-
-.content_img3{
-height: 430px;
-width: 100%;
     
 }
 
-.nav_img{
-    height: 60px;
-    width: 200px;
-    margin: 5px 5px;
-}
-
-.banner_2{
-    background-image: url('./img/repaireServiceimg/homekitchen.jpg');
-    height: 145px;
-    width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-
-}
-
-.content_head_text{
-    color: #6469ad;
-    font-size: 20px;
-    font-weight: 600;
-
-}
-
-.content_text{
-    font-size: 15px;
-    font-weight: 450;
-text-align: justify;
-}
-
-.sub_content{
-    font-size: 15px;
-    font-weight: 600;
-
-}
-
-.head_text{
-    text-align: center;
-    color: #0410a7;
-    font-size: 18px;
-}
-.inner_padding{
-    /* padding: 0% ; */
-
-}
-
-.content_img{
-    height: 300px;
-    width: 100%;
-
-}
-
-.mod_option-s{
-    width: 90%;
-    padding: 10px;
-    margin: 0px 5%;
-
-}
-
-.forminline{
-
-    display: block;
-}
-
-.oneLineform{
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    width: 90%;
-    margin: 10px 5%;
-}
-
-.btn-mod{
-    border: none;
-    width: 90%;
-    line-height: 2;
-    border-radius: 5px;
-    background-color: #f7b12b;
-    color: white;
-    font-size: 20px;
-    margin: 20px 20px 5px 15px;
-
-}
-
-.card-white-theme{
-
-
-}
-
-}
 
 
 .bg-banner_1{
@@ -682,4 +698,7 @@ color: white;
 
 .orange {
     background-color: #ffb104;
+}
+.footer-bg{
+    font-size: 13px;
 }
