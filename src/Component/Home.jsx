@@ -2,16 +2,16 @@
 import React, { useState } from 'react';
 import { Helmet } from "react-helmet";
 
-import acImg from './../img/repaireServiceimg/ac.png';
-import reImg from './../img/repaireServiceimg/refrigerator.jpg';
-import dishImg from './../img/repaireServiceimg/dish.jpg';
-import tvImg from './../img/repaireServiceimg/tv.png';
-import micImg from './../img/repaireServiceimg/oven.jpg';
-import washImg from './../img/repaireServiceimg/wash.png';
-import serveImg from './../img/repaireServiceimg/service.png';
-import repairImg from './../img/repaireServiceimg/repair.jpg';
-import homeItImg from './../img/repaireServiceimg/applainces.jpg';
-import supportImg from './../img/repaireServiceimg/support.jpg';
+import acImg from './../img/repaireServiceimg/ac.webp';
+import reImg from './../img/repaireServiceimg/refrigerator.webp';
+import dishImg from './../img/repaireServiceimg/dish.webp';
+import tvImg from './../img/repaireServiceimg/tv.webp';
+import micImg from './../img/repaireServiceimg/oven.webp';
+import washImg from './../img/repaireServiceimg/wash.webp';
+import serveImg from './../img/repaireServiceimg/service.webp';
+import repairImg from './../img/repaireServiceimg/repair.webp';
+import homeItImg from './../img/repaireServiceimg/applainces.webp';
+import supportImg from './../img/repaireServiceimg/support.webp';
 import { Link } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";

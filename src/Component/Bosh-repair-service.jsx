@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 import Header from "./Header";
 import Footer from "./Footer";
-import appliances from '../img/repaireServiceimg/homeappliances.png';
+import appliances from '../img/repaireServiceimg/homeappliances.webp';
 import ContactForm from "./ContactForm";
 
 function BoshRepairService () {

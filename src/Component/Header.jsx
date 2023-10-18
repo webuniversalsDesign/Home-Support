@@ -1,10 +1,8 @@
 import React from "react";
-// import nav_img from './../img/header.jpg';
 import { Link } from "react-router-dom";
 
 import { IoIosArrowDown } from 'react-icons/io';
-// import { FaMapLocationDot } from 'react-icons/fa6';
-import nav_logo from '../img/logo/customerSupport.png';
+import nav_logo from '../img/logo/customerSupport.webp';
 
 
 function Header () {
@@ -12,7 +10,7 @@ return(
 <>
 <nav className="nav-header">
 <div  className="nav-logo-header">
-    <img src={nav_logo} alt='logo-not-found'/>
+  <Link to='/'><img src={nav_logo} alt='logo-not-found'/></Link>  
 </div>
 
 <div className="navbar-items">
@@ -21,12 +19,12 @@ return(
         
         <Link className="disable-link-decoration"><li className="nav-link-item drop"><IoIosArrowDown className="drop-icon"/> Services
         <ul className="submenu">
-        <Link to="/" className="disable-link-decoration"><li className="submenu-items">Bosh Repair Service</li></Link>  
-        <Link to="/" className="disable-link-decoration"><li className="submenu-items">IFB Repair Service</li></Link>  
-        <Link to="/" className="disable-link-decoration"><li className="submenu-items">LG Repair Service</li></Link>  
-        <Link to="/" className="disable-link-decoration"><li className="submenu-items">Samsung Repair Service</li></Link>  
-        <Link to="/" className="disable-link-decoration"><li className="submenu-items">Siemens Repair Service</li></Link>  
-        <Link to="/" className="disable-link-decoration"><li className="submenu-items">Whirlpool Repair Service</li></Link>  
+        <Link to="/BoshRepairService" className="disable-link-decoration"><li className="submenu-items">Bosh Repair Service</li></Link>  
+        <Link to="/IFBRepairService" className="disable-link-decoration"><li className="submenu-items">IFB Repair Service</li></Link>  
+        <Link to="/LGRepairService" className="disable-link-decoration"><li className="submenu-items">LG Repair Service</li></Link>  
+        <Link to="/SamsungRepairService" className="disable-link-decoration"><li className="submenu-items">Samsung Repair Service</li></Link>  
+        <Link to="/SiemensRepairService" className="disable-link-decoration"><li className="submenu-items">Siemens Repair Service</li></Link>  
+        <Link to="/WhirlpoolRepairService" className="disable-link-decoration"><li className="submenu-items">Whirlpool Repair Service</li></Link>  
         </ul>
         </li></Link>
 

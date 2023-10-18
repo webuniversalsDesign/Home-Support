@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import coninfo from '../img/repaireServiceimg/contact.jpg';
+import coninfo from '../img/repaireServiceimg/contact.webp';
 
 function ContactForm(){
 
