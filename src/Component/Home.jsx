@@ -74,7 +74,7 @@ function Home () {
   
   <title>home appliances repair services | customersupports24x7</title>
   <meta name="description" content="Get reliable home appliances repair services at.customersupports24x7 | Quick solutions for all your appliance troubles, available 24x7."/>
-  <meta name="keywords" content="home appliances repair services, repair services, appliance repair near me, appliance repair"/>
+  <meta name="keywords" content="home appliances,repair services, appliance repair near me, appliance repair"/>
   <link rel="canonical" href="https://www.customersupports24x7.in/" />
 
 </Helmet>

@@ -13,11 +13,11 @@ return(
   
   <title>Whirlpool repair service | customersupports24x7</title>
   <meta name="description" content="24/7 Whirlpool repair service for all your needs. Dependable solutions with a focus on customer support."/>
-  <meta name="keywords" content=""/>
+  <meta name="keywords" content="Whirlpool repair service"/>
   <link rel="canonical" href="https://www.customersupports24x7.in/WhirlpoolRepairService" />
 
-
 </Helmet>
+
 
 <Header/>
 <div className="container inner_padding">

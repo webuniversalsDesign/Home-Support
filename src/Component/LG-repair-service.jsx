@@ -13,7 +13,7 @@ return(
   
   <title>LG repair service | customersupports24x7</title>
   <meta name="description" content="24/7 LG repair service for all your needs. Dependable solutions with a focus on customer support"/>
-  <meta name="keywords" content=""/>
+  <meta name="keywords" content="LG repair service"/>
   <link rel="canonical" href="https://www.customersupports24x7.in/LGRepairService" />
 
 

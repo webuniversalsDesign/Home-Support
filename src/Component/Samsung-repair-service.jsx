@@ -11,7 +11,7 @@ return(
   
   <title>Samsung repair service| customersupports24x7</title>
   <meta name="description" content="Get top-notch Samsung repair service 24/7. Trust us for all your Samsung device repairs"/>
-  <meta name="keywords" content=""/>
+  <meta name="keywords" content="Samsung repair service"/>
   <link rel="canonical" href="https://www.customersupports24x7.in/SamsungRepairService" />
 
 </Helmet>

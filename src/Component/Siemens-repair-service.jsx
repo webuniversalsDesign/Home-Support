@@ -11,7 +11,7 @@ return(
   
   <title>Siemens repair service | customersupports24x7</title>
   <meta name="description" content="Reliable Siemens repair service available 24/7. Trust us for expert solutions to your Siemens appliance needs"/>
-  <meta name="keywords" content=""/>
+  <meta name="keywords" content="Siemens repair service"/>
   <link rel="canonical" href="https://www.customersupports24x7.in/SiemensRepairService" />
 </Helmet>
 
